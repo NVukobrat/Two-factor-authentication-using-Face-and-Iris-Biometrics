@@ -1,0 +1,27 @@
+- Two irises of same person are not same.
+- In this dataset some persons dont have both left and right eye images, so
+I will use right images by default, and left only if there isn't any image
+of right eye.
+- Reading eye images of candidates in simular way as faces. Final results are
+represented in cell form of row vector. Each column represents one candidate.
+Every candidate cell consists of right or left images of that candidate which 
+are structed in this way:
+    - Each row represents one eye image of candidate in row vector form.
+- Extraction of vertical edges, not with Canny.
+- When extract features from multiple iris of one person, what then? To mearge
+all of that irises as for eagan face, or to use one particular eye image?
+- Sigma and Thresh brute force testing in Canny edgde detection.
+- Need add_circle function explanation.
+- Can I write my paper in form on research work, or it needs to be in form that
+VISER has?
+- To use all photos of candidate Iris, I can calculate distance between each
+candidate iris and delete thoes which had to large distance between rest of 
+candidate irises. By this method I can remove low quality irises thoes on which
+algorith done bad boundary extraction.
+- Did Masek use Canny edge detector? Canny doesnt extract vertical or horizontal
+edges, just both.
+- Increse lumince, shadows, colors to see beter boundaries of iris.
+- Dynamic thresh for each candidate
+- Explination of finding eyelid lines
+- Line detector doesnt detect eyelashes, it detects eyelids.
+- When i write image as variable it displeys chield??

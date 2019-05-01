@@ -1,0 +1,42 @@
+Face:
+- Loading candidate data
+- Extract mean eigeinface
+    - Normalize extracted eigenfaces because some data can be low quality.
+    - Also you need to sort eigenvactors and eigenvalues so the normalization.
+    - Intruduction of thechnique of dinamic threshold determination.
+    step can be done correctly.
+    - Show mean face for all faces
+    - Computes difference vector
+    - Show difference vector
+    - Why covariance matrix, show it
+    - Explain eig() MatLab function, how does
+        - Eigenvector represent the main points in image that
+        just streach, while the eigenvalues represents the scalar
+        of that vector.
+    it extract eigenvalues and eigenvectors? What
+    are they?
+    - Why sorting Vectors and Values
+    - How candidate eigenface is computed?
+    - Mean eigenface computation?
+    - Scaling mean eigenface? Yes or no? Explain and show.
+    - Compute mean eigenface for all candidates? Why?
+- Extract candidate eigenfaces
+- Calculate precision? What is RMSE?
+    - Why RMSE?
+    - Error rate between candidate faces.
+        - In 'error_rate_between_candidate_and_mean_eigenface_scaled' file is 
+        represented RMSE between all candidate SCALED faces and their eigenfaces.
+        - In 'error_rate_between_candidate_and_mean_eigenface' file is 
+        represented RMSE between all candidate NOT SCALED faces and their eigenfaces.
+    - Error rate between candidate and intruder faces?
+        - In 'one_vs_all_scaled_error_rate' file is represented RMSE between
+        current candidate eigenface and all candidate faces in SCALED form. 
+        Each column represents one candidate mean eigenface, while rows 
+        represents every candidate face.
+        - In 'one_vs_all_error_rate' -||- in NOT SCALED -||-.
+- Calculate precision using Euclidean distance.
+    - Why euclidean error rates are decreasing in 'euclidean_error_rate' function
+    in 'error_rate' vector?
+- Compare results from RMSE and Euclidean mesurments.
+    - Results are almoust same.
+- Calculate precision for each vector number.

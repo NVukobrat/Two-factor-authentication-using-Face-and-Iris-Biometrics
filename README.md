@@ -9,14 +9,14 @@ Complete algorithm is developed on Ubuntu 18.04 OS. Following hardware specifica
 
 The chosen language is MATLAB. The reason being is a wast number of functionalities, libraries and fast development rate.
 
-## Results
+## Samples
 ### Face
 <table>
 	<tr>
-		<td>Example of face image used in training process</td>
-		<td>Example of Eigenface image</td>
-		<td>Mean face of all training faces</td>
-		<td>Example of one normalized face</td>
+		<td>Example of face image used in training process.</td>
+		<td>Example of Eigenface image.</td>
+		<td>Mean face of all training faces.</td>
+		<td>Example of one normalized face.</td>
 	</tr>
 	<tr>
 		<td><img src="assets/results/face_sample_image.png" alt=""></td>
@@ -43,3 +43,46 @@ Eigenfaces after normalization process.
 		<td><img src="assets/results/norm_eigen_10.png" alt=""></td>
 	</tr>
 </table>
+
+### Iris
+<table>
+	<tr>
+		<td>{Example of eye image used for testing. Area between sclera and pupil is called iris.</td>
+		<td>Output image of Canny edge detector. Edges of the iris and pupil can be seen clearly.</td>
+		<td>Outer boundaries of iris and pupil. Area between them is iris.</td>
+	</tr>
+	<tr>
+		<td><img src="assets/results/eye_image_example.png" alt=""></td>
+		<td><img src="assets/results/canny_eye_image.png" alt=""></td>
+		<td><img src="assets/results/iris_boundaries.png" alt=""></td>
+	</tr>
+</table>
+
+Iris segmentation process:
+<table>
+	<tr>
+		<td><img src="assets/results/iris_segmentation_1.png" alt=""></td>
+		<td><img src="assets/results/iris_segmentation_2.png" alt=""></td>
+		<td><img src="assets/results/iris_segmentation_3.png" alt=""></td>
+	</tr>
+	<tr>
+		<td><img src="assets/results/iris_segmentation_4.png" alt=""></td>
+		<td><img src="assets/results/iris_segmentation_5.png" alt=""></td>
+		<td><img src="assets/results/iris_segmentation_6.png" alt=""></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<td>An example of normalized iris.</td>
+		<td>An example of a coded iris. This form, along with the noise mask, is used for authentication of a person.</td>
+		<td>Iris noise mask. This mask shows regions of iris that are not usable during the process of authentication.</td>
+	</tr>
+	<tr>
+		<td><img src="assets/results/normalized_iris.png" alt=""></td>
+		<td><img src="assets/results/coded_iris.png" alt=""></td>
+		<td><img src="assets/results/iris_mask.png" alt=""></td>
+	</tr>
+</table>
+
+### Final results using this technique and algorithm are presented in the research paper.

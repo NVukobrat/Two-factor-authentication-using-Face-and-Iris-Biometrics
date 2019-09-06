@@ -56,7 +56,7 @@ The chosen language is MATLAB. The reason being is a wast number of functionalit
 	</tr>
 	<tr>
 		<td>Output image of Canny edge detector. Edges of the iris and pupil can be seen clearly.</td>
-		<td><img src="assets/results/canny_eye_image.png" alt=""></td>
+		<td><img src="assets/results/canny_eye_image.jpg" alt=""></td>
 	</tr>
 	<tr>
 		<td>Outer boundaries of iris and pupil. Area between them is iris.</td>

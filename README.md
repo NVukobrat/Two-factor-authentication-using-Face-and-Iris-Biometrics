@@ -13,6 +13,15 @@ The chosen language is MATLAB. The reason being is a wast number of functionalit
 ### Face
 <table>
 	<tr>
+		<td>Example of face image used in training process</td>
+		<td>Example of Eigenface image</td>
+		<td>Mean face of all training faces</td>
+		<td>Example of one normalized face</td>
+	</tr>
+	<tr>
 		<td><img src="assets/results/face_sample_image.png" alt=""></td>
+		<td><img src="assets/results/eigen_face_sample_image.png" alt=""></td>
+		<td><img src="assets/results/mean_face_sample.png" alt=""></td>
+		<td><img src="assets/results/normalized_face_difference.png" alt=""></td>
 	</tr>
 </table>

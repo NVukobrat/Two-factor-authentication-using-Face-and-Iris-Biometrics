@@ -11,6 +11,8 @@ The chosen language is MATLAB. The reason being is a wast number of functionalit
 
 ## Results
 ### Face
-| Example of face image used in training process |
-|:-:|
-| ![](assets/results/face_sample_image.png) |
+<table>
+	<tr>
+		<td><img src="assets/results/face_sample_image.png" alt=""></td>
+	</tr>
+</table>

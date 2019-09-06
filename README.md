@@ -30,7 +30,7 @@ The chosen language is MATLAB. The reason being is a wast number of functionalit
 	</tr>
 </table>
 
-**Eigenfaces after normalization process:**
+### Eigenfaces after normalization process:
 <table>
 	<tr>
 		<td><img src="assets/results/norm_eigen_1.png" alt=""></td>
@@ -64,7 +64,7 @@ The chosen language is MATLAB. The reason being is a wast number of functionalit
 	</tr>
 </table>
 
-**Iris segmentation process (first row represents good sample, while second bad one):**
+### Iris segmentation process (first row represents good sample, while second bad one):
 <table>
 	<tr>
 		<td><img src="assets/results/iris_segmentation_1.png" alt=""></td>
@@ -78,6 +78,7 @@ The chosen language is MATLAB. The reason being is a wast number of functionalit
 	</tr>
 </table>
 
+### Normalized and coded iris samples:
 <table>
 	<tr>
 		<td>An example of normalized iris.</td>
@@ -105,4 +106,4 @@ The chosen language is MATLAB. The reason being is a wast number of functionalit
 	</tr>
 </table>
 
-## Final results using this technique and algorithm are presented in the research paper.
+# Final results using this technique and algorithm are presented in the research paper.

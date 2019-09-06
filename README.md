@@ -51,13 +51,15 @@ The chosen language is MATLAB. The reason being is a wast number of functionalit
 ## Iris
 <table>
 	<tr>
-		<td>{Example of eye image used for testing. Area between sclera and pupil is called iris.</td>
-		<td>Output image of Canny edge detector. Edges of the iris and pupil can be seen clearly.</td>
-		<td>Outer boundaries of iris and pupil. Area between them is iris.</td>
+		<td>Example of eye image used for testing. Area between sclera and pupil is called iris.</td>
+		<td><img src="assets/results/eye_image_example.png" alt=""></td>
 	</tr>
 	<tr>
-		<td><img src="assets/results/eye_image_example.png" alt=""></td>
+		<td>Output image of Canny edge detector. Edges of the iris and pupil can be seen clearly.</td>
 		<td><img src="assets/results/canny_eye_image.png" alt=""></td>
+	</tr>
+	<tr>
+		<td>Outer boundaries of iris and pupil. Area between them is iris.</td>
 		<td><img src="assets/results/iris_boundaries.png" alt=""></td>
 	</tr>
 </table>

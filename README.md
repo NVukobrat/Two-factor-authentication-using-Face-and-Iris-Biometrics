@@ -81,14 +81,26 @@ The chosen language is MATLAB. The reason being is a wast number of functionalit
 <table>
 	<tr>
 		<td>An example of normalized iris.</td>
+	</tr>
+	<tr>
 		<td><img src="assets/results/normalized_iris.png" alt=""></td>
 	</tr>
+</table>
+
+<table>
 	<tr>
 		<td>Iris noise mask. This mask shows regions of iris that are not usable during the process of authentication.</td>
-		<td><img src="assets/results/iris_mask.png" alt=""></td>
 	</tr>
 	<tr>
+		<td><img src="assets/results/iris_mask.png" alt=""></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
 		<td>An example of a coded iris. This form, along with the noise mask, is used for authentication of a person.</td>
+	</tr>
+	<tr>
 		<td><img src="assets/results/coded_iris.png" alt=""></td>
 	</tr>
 </table>
